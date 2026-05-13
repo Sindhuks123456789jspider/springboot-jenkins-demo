@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String home() {
-        return "<h1>Welcome Sindhu 👋</h1><p>Spring Boot app deployed via Jenkins</p>";
+        return "<h1>Welcome Sindhu 👋</h1><p>Spring Boot app deployed via Jenkins is automated with cicd script</p>";
     }
 }
